@@ -1,0 +1,24 @@
+name: flutter_avc  # Remplace par le nom de ton projet
+description: Un projet Flutter
+
+publish_to: 'none' # Vous pouvez supprimer cette ligne si vous souhaitez publier votre package
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.10 # Assurez-vous que la version est la dernière disponible
+  logger: ^1.1.0 # Assurez-vous que la version est la dernière disponible
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # Ajout de la section assets pour inclure les fichiers nécessaires
+  assets:
+    - assets/cgu.txt # Chemin vers le fichier texte contenant les CGU

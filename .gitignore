@@ -1,0 +1,38 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# IDEs et éditeurs
+.idea/
+.vscode/
+*.iml
+
+# Flutter/Dart/Pub
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Android spécifique
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/.gradle/
+/android/local.properties
+/android/app/debug.keystore
+
+# iOS spécifique
+/ios/.symlinks/
+/ios/Flutter/App.framework
+/ios/Flutter/Flutter.framework
+/ios/Runner.xcworkspace
+
+# Fichiers sensibles
+.env
+.metadata
+
+# Autres fichiers temporaires
+*.log
